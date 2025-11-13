@@ -31,8 +31,7 @@ flowchart TD
   C -- No --> E[Login manual o automatizado]
   E --> D
   D --> F[Ir al perfil objetivo]
-  F --> G[Extraer lista de seguidores]
-  G --> H[Guardar lista en CSV]
+  F --> H[Extraer lista de seguidores]
   H --> I[Para cada seguidor: abrir perfil]
   I --> J[Extraer número de seguidores]
   J --> K[Agrupar números]
@@ -41,7 +40,7 @@ flowchart TD
   M --> N[Finalizar]
 
   classDef etapa fill:#f9f,stroke:#333,stroke-width:1px;
-  class A,B,D,F,G,H,I,J,K,L,M etapa;
+  class A,B,D,F,H,I,J,K,L,M etapa;
 ```
 
 ## Descripción de pasos
