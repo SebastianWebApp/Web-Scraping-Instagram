@@ -37,7 +37,7 @@ flowchart TD
   I --> J[Extraer número de seguidores]
   J --> K[Agrupar números]
   K --> L[Aplicar Ley de Benford]
-  L --> M[Generar reporte (gráficos + CSV)]
+  L --> M[Generar reporte: gráficos y CSV]
   M --> N[Finalizar]
 
   classDef etapa fill:#f9f,stroke:#333,stroke-width:1px;
