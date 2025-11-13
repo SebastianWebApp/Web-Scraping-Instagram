@@ -1,10 +1,4 @@
-math
 selenium
 selenium-stealth
-time
-pickle
-os
-threading
 matplotlib
 pandas
-collections
