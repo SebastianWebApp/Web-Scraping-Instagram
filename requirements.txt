@@ -2,3 +2,4 @@ selenium
 selenium-stealth
 matplotlib
 pandas
+dotenv
